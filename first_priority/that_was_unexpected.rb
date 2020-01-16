@@ -1,3 +1,5 @@
+
+
 class Person
   attr_accessor :name, :candy_lover
 
@@ -12,6 +14,7 @@ class Person
 
   def basketball_player?
     false
+    binding.pry
   end
 
   def likes_candy?
@@ -24,6 +27,7 @@ class Person
     else
       10.times do
         "not a ballin candy lover"
+      end
     end
   end
 end
